@@ -1,6 +1,6 @@
 # 🤖 Mini-Projet ROS 2 : Le Roomba Virtuel (V1)
 
-L'objectif est de concevoir l'architecture logicielle simplifiée d'un robot aspirateur (type Roomba) **sans interface graphique ni simulateur**. Tout se passe dans le terminal. Voici les notions de qui seront utilisées dans ce mini projet :
+L'objectif est de concevoir l'architecture logicielle simplifiée d'un robot aspirateur (type Roomba) **sans interface graphique ni simulateur**. Tout se passe dans le terminal. Voici les notions qui seront utilisées dans ce mini projet :
 
 - les **Paramètres** pour la configuration au lancement (`drain_rate`),
 - les **Topics** pour la télémétrie continue (l'état publié à 1 Hz),

@@ -1,0 +1,4 @@
+bool start_cleaning      # True = démarrer, False = arrêter
+---
+bool success
+string message

@@ -1,0 +1,4 @@
+string power_mode        # Mode demandé : "NORMAL", "ECO" ou "TURBO"
+---
+bool success             # True si le mode a été accepté
+string message           # Détail lisible (mode appliqué, erreur, etc.)
