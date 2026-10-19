@@ -12,7 +12,10 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RoombaState.msg"
   "srv/SetPowerMode.srv"
-  "srv/ToggleCleaning.srv")
+  "srv/ToggleCleaning.srv"
+  )
+
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
